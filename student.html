@@ -7,7 +7,7 @@
 	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/student.css">
 	<script src="js/login.js"></script>
 </head>
 <body>
@@ -33,10 +33,20 @@
 	            </span>
  			</div>
 
- 			<div id = "login">
- 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal">登录</span>
- 				<span class="loginOrRegister">/</span>
- 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal1">注册</span>
+ 			<div id="student_div" class="dropdown">
+ 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+ 					<img id = "student_image"  src="image/image.jpg" class="img-circle">
+ 					<b class="caret"></b>
+ 				</a>
+ 				<ul class="dropdown-menu" id="menu">
+ 					<div class="e-hover-arrow"></div>
+ 					<div class="e-hover-arrow-border"></div>
+					<li><a href="#">个人信息</a></li>
+					<li class="divider"></li>
+					<li><a href="#">我的课程</a></li>
+					<li class="divider"></li>
+					<li><a href="#">切换身份</a></li>
+				</ul>
  			</div>
 	   </div>
 	</nav>
@@ -95,7 +105,7 @@
 		<div class="main_content_box" id="main_content_box">
 			<div class="main_content_course" id="main_content_course">
 				<div class="main_content_course_image">
-					<a href="#"><img src="image/course.jpg" class="main_content_course_img"/></a>
+					<img src="image/course.jpg" class="main_content_course_img">
 				</div>
 				<div class="course_title">计算机学习之旅</div>
 				<div class="course_prace">
@@ -222,9 +232,9 @@
 						<button type="button" id="modal-button" class="btn btn-default" data-dismiss="modal">
 						   取消
 						</button>
-						<a href="student.html"><button type="submit" style="width: 54px" id="modal-submit" class="btn btn-primary">
+						<button type="submit" style="width: 54px" id="modal-submit" class="btn btn-primary">
 							登录
-						</button></a>
+						</button>
 					</div>
 				</div>
 			</div>

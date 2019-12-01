@@ -1,0 +1,154 @@
+.detail_title {
+	position: absolute;
+	width: 100%;
+	height: 280px;
+	top: 90px;
+	z-index: -9999;
+}
+.detail_title_sun {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	z-index: -9999;
+}
+.detail_title_detail {
+	position: relative;
+	background-color: white;
+	width: 60%;
+	height: 140px;
+	z-index: -9999;
+	border-radius: 10px;
+	top: -60px;
+	margin: auto;
+}
+.detail_title_p {
+	position: relative;
+	text-align: center;
+    font-size: 40px;
+    color: #fff;
+    line-height: 48px;
+    text-shadow: 0 2px 4px rgba(28,31,33,.6);
+    top:20px;
+}
+.detail_title_authrity {
+	position: relative;
+	text-align: center;
+    font-size: 20px;
+    color: black;
+    line-height: 48px;
+    top:15px;
+}
+.detail_prince {
+	position: relative;
+	font-size: 32px;
+    color: #f01414;
+    line-height: 32px;
+    font-weight: 700;
+    top: 20px;
+    left: 90px;
+}
+.detail_command {
+	position: relative;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    top:10px;
+    left: 90px;
+	word-break:normal;
+	white-space:pre-wrap;
+	word-wrap: break-word;
+	width: 70%;
+	text-indent: 2em;
+}
+.detail_button {
+	position: relative;
+	left: 70%;
+	top:-90px;
+}
+
+.detail_content {
+	position: absolute;
+	width: 80%;
+	background-color: white;
+	top:400px;
+	left: 10%;
+	border-radius: 20px;
+}
+
+.detail_content_title {
+	width: 80%;
+	height: 80px;
+	margin: auto;
+	border-bottom:1px solid #cebfbf;
+	cursor: default;
+}
+.detail_content_title_p {
+	position: relative;
+	font-size: 20px;
+	top: 50px;
+}
+.detail_content_con {
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-top:20px;
+}
+.detail_course {
+	position: relative;
+	left: 30px;
+}
+.detail_unit {
+	font-size: 20px;
+
+}
+.detail_content_command_p {
+	position: relative;
+	font-size: 20px;
+	top: 12px;
+	left: 180px;
+	cursor: default;
+}
+
+#detail_command_de {
+	display: none;
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+#student_image {
+	position: relative;
+	width: 60px;
+	height:60px;
+	top: 10px;
+	left: 10px;
+}
+.name {
+	position: relative;
+	top: -40px;
+	left: 80px;
+	font-size: 20px;
+	font-family: 微软雅黑, 'Microsoft YaHei';
+	color: #333333;
+}
+.command_div {
+	position: relative;
+	width: 60%;
+	left: 80px;
+	top:-40px;
+	
+}
+
+.command_div_p {
+	word-break:normal;
+	white-space:pre-wrap;
+	word-wrap: break-word;
+	top:-40px;
+	text-indent: 2em;
+}
+
+.time {
+	position: relative;
+	top: -40px;
+	left: 80px;
+	color: gray;
+}

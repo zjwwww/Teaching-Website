@@ -45,7 +45,7 @@ body{
 	position: relative;
 	left: 22%;
 	width: 56%;
-	background-color:gray;
+	background-color:#f0f0f7;
 	height: 400px;
 	top:-400px;
 }
@@ -90,4 +90,70 @@ a:active {
 	width: 25px;
 	height: 25px;
 	margin-right: 15px;
+}
+
+.middle_car {
+	position: relative;
+	left: -45px;
+	width: 710px !important;
+	height: 400px !important;
+	max-width: unset !important;
+}
+
+.main_content {
+	width: 94%;
+	margin:auto;
+	margin-top: 20px;
+}
+.main_content_label_p {
+	font-weight: bold;
+	font-family: 微软雅黑, 'Microsoft YaHei';
+	font-size: 24px;
+}
+.main_content_box {
+	width: 100%;
+    height: 200px;
+    display: -webkit-flex; 
+    -webkit-flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_content_course {
+	width: 23%;
+    height: 200px;
+	margin-left: 20px;
+	background-color: white;
+	border-radius: 1%;
+	margin-top: 10px;
+}
+
+.main_content_course_image {
+	width: 100%;
+	height: 70%;
+}
+
+.course_title {
+	font-family: 微软雅黑, 'Microsoft YaHei';
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	margin-left: 10px;
+}
+
+.course_price {
+	font-size: 20px;
+	margin-left: 20px;
+	font-size: 16px;
+	top: 10px;
+	color: gray;
+}
+.course_number {
+	margin-left: 100px;
+}
+.persion_number_image{
+	width: 20px;
+	height: 20px;
+}
+.main_content_course_image {
+
 }

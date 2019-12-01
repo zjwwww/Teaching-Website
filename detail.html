@@ -1,0 +1,102 @@
+  <!DOCTYPE HTML>
+<html>
+<head>
+  	<title>课程详情</title>
+  	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/detail.css">
+	<script src="js/login.js"></script>
+	<script src="js/detail.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation" id = "nav">
+		<div class="container-fluid">
+			<div class="navbar-header" style="margin-top: 10px">
+				<a class="navbar-brand" href="#">
+					<img class = "logo" width="160px" height="40px" src="image/logo.png">
+				</a>
+			</div>
+			<div>
+			  <ul class="nav navbar-nav" id = "nav_ul">
+					<li id = "nav_ul_li"><a href="#">首页</a></li>
+					<li id = "nav_ul_li"><a href="#">全民文库</a></li>
+					<li id = "nav_ul_li"><a href="#">全民问</a></li>
+			  </ul>
+		    </div>
+
+		    <div id="nav_search_button" class="input-group col-md-3" style="margin-top:0px positon:relative">
+	      		<input type="text" class="form-control"placeholder="课程名称" / >
+	            <span class="input-group-btn">
+	               <span class="btn btn-info btn-search" color="gray">搜索</span>
+	            </span>
+ 			</div>
+
+ 			<div id = "login">
+ 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal">登录</span>
+ 				<span class="loginOrRegister">/</span>
+ 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal1">注册</span>
+ 			</div>
+	   </div>
+	</nav>
+	<div class="detail_title" id="detail_title" >
+		<div class="detail_title_sun" style="background-image: url(image/titleImage.jpg);">
+			<p class="detail_title_p">java web的学习</p>
+			<p class="detail_title_authrity">作者：小周</p>
+		</div>
+		<div class="detail_title_detail" style="background-image: url(image/background3.jpg);">
+			<p class="detail_prince"><span style="color: gray;font-size: 25px">价格：</span>￥66</p>
+			<p class="detail_command">只要你用心，那么就会成功，加油、加油;只要你用心，那么就会成功，加油、加油;只要你用心，那么就会成功，加油、加油;</p>
+			<div class="detail_button">
+				<a href="#"><button type="button" class="btn btn-danger">立即购买</button></a>
+				<a href="#"><button type="button" class="btn btn-success">收藏</button></a>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="detail_content" id="detail_content">
+		<div class="detail_content_title">
+			<p class="detail_content_title_p" id="detail_content_title_p" onclick="courseContent()">课程目录</p>
+			<p class="detail_content_command_p" id="detail_content_command_p" onclick="courseCommand()">评价</p>
+		</div>
+		<!-- 课程目录 -->
+		<div class="detail_content_con" id="detail">
+			<p class="detail_unit" style="color: gray">单元</p>
+			<p class="detail_unit">1、&nbsp&nbsp&nbsp&nbspjava基础</p>
+			<p class="detail_course" style="color: gray">课时</p>
+			<p class="detail_course">(1)&nbsp&nbsp&nbsp&nbspjava的历史发展</p>
+			<p class="detail_course">(2)&nbsp&nbsp&nbsp&nbsp修饰符</p>
+			<hr>
+			<p class="detail_unit" style="color: gray">单元</p>
+			<p class="detail_unit">2、&nbsp&nbsp&nbsp&nbspjava高级</p>
+			<p class="detail_course" style="color: gray">课时</p>
+			<p class="detail_course">(1)&nbsp&nbsp&nbsp&nbspjava集合</p>
+			<p class="detail_course">(2)&nbsp&nbsp&nbsp&nbspAPI</p>
+		</div>
+		<!-- 课程评价 -->
+
+		<div class="detail_content_con"  id="detail_command_de">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+ 				<img id = "student_image"  src="image/image.jpg" class="img-circle">
+ 				<p class="name" id="name">小周</p>
+ 				<p class="time">2019.12.14</p>
+ 			</a>
+ 			<div class="command_div">
+ 				<p class="command_div_p">我们哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈嗯嗯嗯嗯恁嗯嗯嗯嗯哪嗯呢呢嗯嗯你</p>
+ 			</div>
+
+ 			<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+ 				<img id = "student_image"  src="image/image.jpg" class="img-circle">
+ 				<p class="name" id="name">小周</p>
+ 				<p class="time">2019.12.14</p>
+ 			</a>
+ 			<div class="command_div">
+ 				<p class="command_div_p">我们哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈嗯嗯嗯嗯恁嗯嗯嗯嗯哪嗯呢呢嗯嗯你</p>
+ 			</div>
+		</div>
+	</div>
+</body>

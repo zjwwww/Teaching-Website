@@ -1,0 +1,45 @@
+#student_image {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: -40px;
+	margin-right: 40px;
+}
+
+#menu {
+	position: absolute;
+	z-index: 9999;
+	margin-left: 1120px;
+	top:13px;
+
+}
+
+.caret {
+	float: right;
+	margin-top: -25px;
+	margin-right: 30px;
+}
+.e-hover-arrow-border {
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 6px;
+    border: 9px solid transparent;
+    border-bottom-color: #fff;
+    border-top-width: 0px;
+    z-index: 3;
+    left: 126px;
+    top: -9px;
+}
+.e-hover-arrow{
+	position: absolute;
+    top: 5px;
+    width: 1px;
+    height: 1px;
+    border: 9px solid transparent;
+    border-bottom-color: #ddd;
+    z-index: 3;
+    border-top-width: 0px;
+    left: 126px;
+    top: -10px;
+}
