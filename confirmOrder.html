@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  	<title>课程详情</title>
+  	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/detail.css">
+	<link rel="stylesheet" type="text/css" href="css/confirmOrder.css">
+	<script src="js/login.js"></script>
+	<script src="js/detail.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation" id = "nav">
+		<div class="container-fluid">
+			<div class="navbar-header" style="margin-top: 10px">
+				<a class="navbar-brand" href="#">
+					<img class = "logo" width="160px" height="40px" src="image/logo.png">
+				</a>
+			</div>
+			<div>
+			  <ul class="nav navbar-nav" id = "nav_ul">
+					<li id = "nav_ul_li"><a href="#">首页</a></li>
+					<li id = "nav_ul_li"><a href="#">全民文库</a></li>
+					<li id = "nav_ul_li"><a href="#">全民问</a></li>
+			  </ul>
+		    </div>
+
+		    <div id="nav_search_button" class="input-group col-md-3" style="margin-top:0px positon:relative">
+	      		<input type="text" class="form-control"placeholder="课程名称" / >
+	            <span class="input-group-btn">
+	               <span class="btn btn-info btn-search" color="gray">搜索</span>
+	            </span>
+ 			</div>
+
+ 			<div id = "login">
+ 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal">登录</span>
+ 				<span class="loginOrRegister">/</span>
+ 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal1">注册</span>
+ 			</div>
+	   </div>
+	</nav>
+
+	<div class="tile_box" style="background-image: url(image/comformBackpage.jpg);">
+		<h1 class="comformh1">确认订单</h1>
+	</div>
+	<div class="comform_content">
+		<div class="comform_content_box">
+			<img src="image/course.jpg" class="comformImg">
+			<div class="comfirm_title">
+				<h1>计算机基础</h1>
+				<p>￥123</p>
+				<h2>教师：小周</h2>
+			</div>
+		</div>
+		<div class="comfirm_buttom">
+			<p class="comfirm_buttom_content">商品总金额：￥123 &nbsp&nbsp&nbsp&nbsp&nbsp应付：￥123</p>
+			<button id="comfirm_button" class="btn btn-warning">提交订单</button>
+		</div>
+	</div>
+</body>
