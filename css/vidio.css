@@ -1,0 +1,20 @@
+#return_cata {
+	background-image: url(../image/return.png);
+	width: 60px;
+	margin-left: 20px;
+	height: 30px;
+	margin-top: 12px;
+
+}
+.title {
+	font-size: 16px;
+    color: #1c1f21;
+    font-weight: 700;
+}
+.mv_icon1 {
+	width: 50%;
+	height: 100%;
+}
+#nav_search_button {
+	left: 500px !important;
+}
