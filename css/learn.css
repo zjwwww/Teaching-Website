@@ -1,0 +1,124 @@
+.my_nav {
+	position: absolute;
+	width: 20%;
+	margin-top: -20px;
+}
+
+.my_dis {
+	position: absolute;
+	width: 80%;
+	height: 200px;
+	margin-left: 20%;
+}
+
+.nav_image {
+	position: relative;
+	width: 90%;
+	left: 5%;
+	height: 120px;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.nav_image img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.nav_content {
+	position: relative;
+	width: 90%;
+	left: 5%;
+	height: 140px;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.my_dis {
+	margin-top: 5px;
+}
+
+.dis_head {
+	position: relative;
+	width: 90%;
+	height: 100px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 rgba(7,17,27,.1);
+    border-radius: 12px;
+    padding: 24px 32px 32px;
+    margin-bottom: 8px;
+}
+
+.dis_content {
+	position: relative;
+	width: 90%;
+    background: #fff;
+    box-shadow: 0 8px 16px 0 rgba(7,17,27,.1);
+    border-radius: 12px;
+    padding: 24px 32px 32px;
+    margin-bottom: 8px;
+}
+
+.dis_content h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.nav_span_course {
+	position: relative;
+	width: 100%;
+	height: 30%;
+	border-bottom: 1px solid #80808047;
+	display: block;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 12px;
+}
+
+.nav_span_dic {
+	position: relative;
+	width: 100%;
+	height: 30%;
+	border-bottom: 1px solid #80808047;
+	display: block;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 12px;
+}
+
+.nav_span_prob {
+	position: relative;
+	width: 100%;
+	height: 30%;
+	display: block;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 12px;
+}
+
+.dic_back ul {
+	list-style: none;
+	width: 100%;
+	font-size: 16px;
+}
+
+
+.dic_back {
+	width: 90%;
+}
+
+.dic_back li {
+	list-style: none;
+	width: 100%;
+	height: 45px;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+.dic_back li:hover {
+	background-color:#e0d0d0;
+	color: red;
+}
+

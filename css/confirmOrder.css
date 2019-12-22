@@ -16,7 +16,7 @@
 	margin-left: 10%;
 	width: 80%;
 	margin-top: 20px;
-	height: 450px;
+	height: 400px;
 }
 .comformImg {
 	position: relative;
@@ -91,4 +91,100 @@
 #comfirm_button {
 	float: right;
 	margin-right: 80px;
+}
+
+.pay_content_box {
+	position: relative;
+	margin: auto;
+	width: 90%;
+	margin-top: 20px;
+	background-color: #f3f5f7;
+	height: 170px;
+	padding-top: 20px;
+	top: 20px;
+	border-radius: 5px;
+}
+.pay_content {
+	background-color: white;
+	margin-left: 10%;
+	width: 80%;
+	margin-top: 20px;
+	height: 500px;
+}
+.pay_buttom {
+	margin-top: 250px;
+	height:100px;
+	width: 100%;
+	background-color: #dbdcdc;
+	box-shadow: 0 -4px 6px -2px #e4e9f0;
+}
+
+.pay_order {
+	position: relative;
+	font-size: 20px;
+	left: 40px;
+	top: 20px;
+}
+.pay_line {
+	margin-top: 30px;
+	background-color: #cecbcb;
+	height: 1px;
+}
+
+.weixin {
+	float: left;
+	background-color: red;
+	width: 200px;
+	height: 80px;
+	margin-left: 40px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.zhifubao {
+	float: left;
+	background-color: red;
+	width: 200px;
+	height: 80px;
+	margin-left: 80px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+
+.pay_method {
+	float: left;
+	font-size: 20px;
+	margin-left: 40px;
+	top: 20px;
+}
+.weixin:hover{
+	border:2px solid red;
+    cursor: default;
+}
+
+
+.weixin:active {
+	border:2px solid red;
+    cursor: default;
+}
+
+
+.zhifubao:hover{
+	border:2px solid red;
+    cursor: default;
+}
+
+
+.zhifubao:active {
+	border:2px solid red;
+    cursor: default;
+}
+
+.head_image_div {
+	width: 80px !important;
+	height: 80px !important;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	left:80px;
+	top:-60px;
 }

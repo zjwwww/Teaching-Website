@@ -11,3 +11,20 @@ function courseCommand() {
 	command.style.display = "block";
 	content.style.display = "none";
 }
+
+
+//支付页面的js
+function clickBoder() {
+	var weixin = document.getElementById("weixin");
+	var zhifubao = document.getElementById("zhifubao");
+	weixin.style.cssText += 'border: 2px solid red';
+	zhifubao.style.cssText += 'border: 0px solid red';
+}
+
+//支付页面的js
+function clickBoderZi() {
+	var weixin = document.getElementById("weixin");
+	var zhifubao = document.getElementById("zhifubao");
+	zhifubao.style.cssText += 'border: 2px solid red';
+	weixin.style.cssText += 'border: 0px solid red';
+}
