@@ -10,7 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 	<link rel="stylesheet" type="text/css" href="css/learn.css">
 	<link rel="stylesheet" type="text/css" href="css/vidio.css">
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_657604_xujhsb9zlug3z0k9.css">
 	<script src="js/login.js"></script>
+	<script src="js/vidio.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default" role="navigation" id = "nav">
@@ -38,5 +40,37 @@
  			</div>
 	   </div>
 	</nav>
+	<div class="vidio_box">
+		<div class="vidio_catalogue_box" id="vidio_catalogue_box">
+			<img class="vidio_arrow" src="image/arrow.png" onclick="show_catagory()">
+		</div>
+		<div class="vidio_see_box" id="vidio_see_box">
+			
+		</div>
+
+
+		<div data-spy="scroll" data-offset="0" style="height:100%;overflow:auto; position: relative;width: 20%; top: -90%" id="scroll_catagory">
+			<div class="vidio_catagory_close" id="vidio_catagory_close" onclick="closeCatagory()">
+				<img src="image/close.png">
+			</div>
+
+			<div class="vidio_catagory_huadong">
+				<ul class="set_ul">
+					<li class="set_title">1.1 初见祖国</li>
+					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">我爱的红旗啊</li></a>
+					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">五十六个民族是一家</li></a>
+					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">总结</li></a>
+				</ul>
+				<ul>
+					<li class="set_title">1.2 爱祖国</li>
+					<a href="#"><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">中华人民共和国</li></a>
+					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">共产党</li></a>
+					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">人民解放军</li></a>
+				</ul>
+			</div>
+	
+
+		</div>
+	</div>
 	</body>
 </html>

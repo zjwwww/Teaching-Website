@@ -18,3 +18,74 @@
 #nav_search_button {
 	left: 500px !important;
 }
+.vidio_box {
+	width: 100%;
+	height: 500px;
+	background-color: #827e7e;
+	position: relative;
+	top: -20px;
+}
+.vidio_catalogue_box {
+	float: left;
+	width: 5%;
+	height: 100%;
+	background-color: rgb(130, 126, 126);
+}
+.vidio_see_box {
+	position: relative;
+	width: 85%;
+	height:90%;
+	background-color: green;
+	top: 5%;
+	left: 5%;
+}
+.vidio_arrow {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	cursor: pointer;
+}
+.vidio_catagory_huadong {
+	position: relative;
+	width: 80%;
+	left: 10%;
+	top: 10px;
+}
+
+.set_title {
+	padding-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.set_li {
+	position: relative;
+	top:-20px;
+	left: 25px;
+}
+.imv2-video_circle img{
+	position: relative;
+	background-image: url(../image/play.png);
+	width:20px;
+	height: 20px; 
+}
+
+.vidio_catagory_close img {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: 80%;
+	top: 10px;
+
+}
+.vidio_catagory_close {
+}
+#scroll_catagory  {
+	display: none;
+}
+
+li {
+	list-style: none;
+}
