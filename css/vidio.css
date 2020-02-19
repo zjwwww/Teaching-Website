@@ -21,7 +21,7 @@
 .vidio_box {
 	width: 100%;
 	height: 500px;
-	background-color: #827e7e;
+	background-color: #020202;
 	position: relative;
 	top: -20px;
 }
@@ -29,21 +29,23 @@
 	float: left;
 	width: 5%;
 	height: 100%;
-	background-color: rgb(130, 126, 126);
+	background-color: #020202;
+	display: none;
 }
 .vidio_see_box {
 	position: relative;
-	width: 85%;
+	width: 70%;
 	height:90%;
-	background-color: green;
+	background-color: #3c3b3b;
 	top: 5%;
-	left: 5%;
+	left: 20%;
 }
 .vidio_arrow {
 	position: relative;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	top: 50%;
+	left:15%;
 	cursor: pointer;
 }
 .vidio_catagory_huadong {
@@ -64,6 +66,7 @@
 	position: relative;
 	top:-20px;
 	left: 25px;
+	color: #fff;
 }
 .imv2-video_circle img{
 	position: relative;
@@ -83,9 +86,80 @@
 .vidio_catagory_close {
 }
 #scroll_catagory  {
-	display: none;
+	display: block;
 }
 
 li {
 	list-style: none;
 }
+.video-js {
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+/* 进度条背景色 */
+/* 进度条背景色 */
+.video-js .vjs-play-progress{
+  color: #ffb845;
+  background-color: red;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+
+display: none;
+}
+
+.resourse {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: #cdcdcd;
+	margin-bottom: 20px;
+	top:-2em;
+	box-shadow: 0 4px 8px 0 rgba(28,31,33,.1);
+}
+
+.resourse_li {
+	position:relative;
+	display: inline;
+	padding-left: 40px;
+	font-size: 20px;
+	color: #545c63;
+    cursor: pointer;
+    font-weight: 700;
+}
+.resourse ul {
+	position:relative;
+	top: 25%;
+}
+
+#resourse_li {
+	color: red;
+}
+
+.resourse_content {
+	float: left;
+	width: 50%;
+	height: 200px;
+	margin-left: 5%;
+	box-shadow: 2px 4px 8px 0 rgba(28,31,33,.1);
+}
+.relative_course {
+	float: right;
+	width: 40%;
+	height: 200px;
+	display: block;
+	box-shadow: 0 4px 8px 1px rgba(28,31,33,.1);
+}
+.file_box {
+	position: relative;
+	width: 70%;
+	height: 80px;
+	background-color: red;
+	left: 5%; 
+	border-radius: 2%;
+}
+
+.scroll_catagory::-webkit-scrollbar { width: 0 !important }

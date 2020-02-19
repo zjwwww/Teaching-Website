@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  	<title>首页</title>
+  	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/student.css">
+	<link rel="stylesheet" type="text/css" href="css/classCourse.css">
+	<script src="js/login.js"></script>
+</head>
+	<body>
+		<nav class="navbar navbar-default" role="navigation" id = "nav">
+		<div class="container-fluid">
+			<div class="navbar-header" style="margin-top: 10px">
+				<a class="navbar-brand" href="${pageContext.request.contextPath}/index">
+					<img class = "logo" width="160px" height="40px" src="image/logo.png">
+				</a>
+			</div>
+			<div>
+			  <ul class="nav navbar-nav" id = "nav_ul">
+					<li id = "nav_ul_li"><a href="${pageContext.request.contextPath}/index">首页</a></li>
+					<li id = "nav_ul_li"><a href="#">全民文库</a></li>
+					<li id = "nav_ul_li"><a href="#">全民问</a></li>
+			  </ul>
+		    </div>
+
+		    <div id="nav_search_button" class="input-group col-md-3" style="margin-top:0px positon:relative">
+	      		<input type="text" class="form-control"placeholder="课程名称" / >
+	            <span class="input-group-btn">
+	               <span class="btn btn-info btn-search" color="gray">搜索</span>
+	            </span>
+ 			</div>
+			<script type="text/javascript">
+			$(function(){
+				if("<%=session.getAttribute("stuUsername")%>"=="" || "<%=session.getAttribute("stuUsername")%>"=='null') {
+					$("#student_div").hide();
+					$("#login").show(); 	 
+				}else {
+					$("#student_div").show();
+					$("#login").hide();
+				}
+				
+			})
+			</script>
+ 			<div id = "login" class="hideLogin">
+ 				<a href="${pageContext.request.contextPath}/loginPage"><span class="loginOrRegister" style="cursor: default"  data-toggle="modal" data-target="#myModal">登录</span></a>
+ 				<span class="loginOrRegister">/</span>
+ 				<a href="${pageContext.request.contextPath}/loginPage"><span class="loginOrRegister" style="cursor: default"  data-toggle="modal" data-target="#myModal1">注册</span></a>
+ 			</div>
+ 			<div id="student_div" class="dropdown" >
+ 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+ 					<img id = "student_image"  src="image/image.jpg" class="img-circle">
+ 					<b class="caret"></b>
+ 				</a>
+ 				<ul class="dropdown-menu" id="menu">
+ 					<div class="e-hover-arrow"></div>
+ 					<div class="e-hover-arrow-border"></div>
+					<li><a href="#">个人信息</a></li>
+					<li class="divider"></li>
+					<li><a href="#">我的课程</a></li>
+					<li class="divider"></li>
+					<li><a href="#">切换身份</a></li>
+					<li class="divider"></li>
+					<li><a href="${pageContext.request.contextPath}/exit">退出登录</a></li>
+				</ul>
+ 			</div>
+	   </div>
+	</nav>
+
+	<div class="title">
+		<h3 class="titleName">外语<span class="all">全部</span></h3>
+	</div>
+	<div class="content_course">
+		<div class="_2mbYw">
+			<div class="_3KiL7">
+				<img class="content_course_cover" src="image/course.jpg" alt="课程封面">
+				<div class="ccca">
+					<h4 style="margin-left: 10px;">全民课程</h5>
+					<p style="margin-left: 10px;font-size: 10px;color: gray">教师：小周</p>
+					<span class="course_price" style="font-size: 10px;">￥0</span>
+					<span class="course_number" style="font-size: 10px;"><img src="image/persion.png" class="persion_number_image">1234</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="_2mbYw">
+			<div class="_3KiL7">
+				<img class="content_course_cover" src="image/course.jpg" alt="课程封面">
+				<div class="ccca">
+					<h4 style="margin-left: 10px;">全民课程</h5>
+					<p style="margin-left: 10px;font-size: 10px;color: gray">教师：小周</p>
+					<span class="course_price" style="font-size: 10px;">￥0</span>
+					<span class="course_number" style="font-size: 10px;"><img src="image/persion.png" class="persion_number_image">1234</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="_2mbYw">
+			<div class="_3KiL7">
+				
+			</div>
+		</div>
+
+		<div class="_2mbYw">
+			<div class="_3KiL7">
+				
+			</div>
+		</div>
+
+		<div class="_2mbYw">
+			<div class="_3KiL7">
+				
+			</div>
+		</div>
+
+		<div class="_2mbYw">
+			<div class="_3KiL7">
+				
+			</div>
+		</div>
+
+		<div class="_2mbYw">
+			<div class="_3KiL7">
+				
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

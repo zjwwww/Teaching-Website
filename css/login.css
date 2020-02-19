@@ -100,3 +100,106 @@
 #send_button {
 	height: 35px;
 }
+
+.login_box {
+	position: absolute;
+	width: 400px;
+	left:15%;
+	top: 80px;
+	background-color: #eae4e4a6;
+}
+
+.login_box h2{
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+
+.login_box form {
+	display: block;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+#login_username {
+}
+
+#login_password {
+}
+
+#login_button {
+	width: 80% !important;
+	height: 40px;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.login_regi_title {
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	cursor: default;
+	color: black;
+}
+.login_title {
+	position: relative;
+	width: 20%;
+	text-align: center;
+	left: 10%;
+	top: 20%;
+	font-size: 20px;
+	color: red;
+
+}
+.register_title {
+	position: relative;
+	width: 20%;
+	left: 40%;
+	top: -70%;
+	font-size: 20px;
+}
+
+.forget_password {
+	position: relative;
+	left:10%;
+}
+
+#register_form {
+	display: none;
+}
+
+.register_input {
+	width: 80%;
+    height: 48px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 14px;
+    box-shadow: 2px 0 5px 0 #fff;
+    background: rgba(28,31,33,.06);
+    border-radius: 8px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+#register_button {
+	width: 80% !important;
+	height: 40px;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#login_phone {
+	width: 60% !important;
+}
+
+.send_button {
+	width: 20%;
+	background-color: red;
+	height: 40px;
+}
+
+#login_form label {
+	margin-left: 10%;
+}

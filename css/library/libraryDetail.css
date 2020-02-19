@@ -1,0 +1,179 @@
+body {
+	background-color: #f3f2f2;
+}
+.detail_content {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 70px;
+}
+
+.detail_content_left {
+	float: left;
+	width: 74%;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+.detail_content_right {
+	float: right;
+	background-color: green;
+	width: 25%;
+	height: 400px;
+	border-radius: 4px;
+}
+.detail_title {
+	width: 100%;
+	color: #404040;
+	font-size: 30px;
+	font-weight: 700px;
+	word-break: break-word;
+}
+.detail_content_left_i {
+	width: 90%;
+	margin-left:5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.detail_author {
+	width: 100%;
+	height: 60px;
+}
+.author_img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	float: left;
+	margin-top: 6px;
+}
+.detail_author_o {
+	float:left;
+	margin-left: 5px;
+	margin-top: 6px;
+}
+
+.author_name {
+	height: 30px;
+	font-size: 16px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.author_info {
+	height: 18px;
+	font-size: 13px;
+	color: #969696;
+}
+
+.detail_really_content {
+	width: 100%;
+	margin-top: 15px;
+	font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.likeIt {
+	width: 100%;
+	height: 40px;
+}
+
+.likeIt {
+	font-size: 13px;
+	color: #969696;
+}
+
+.detail_comment {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.comment_box {
+	width: 100%;
+	margin-left: 10%;
+}
+
+.comment_box textarea{
+	padding: 12px 16px;
+    width: 80%;
+    height: 90px;
+    font-size: 13px;
+    border: 1px solid #cec8c8;
+    border-radius: 4px;
+    background-color: #fafafa;
+    resize: none;
+    display: inline-block;
+    vertical-align: top;
+    outline-style: none;
+}
+.comment_send {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	
+}
+.comment_send button{
+	background-color: #ec7259;
+    border-color: #ec7259;
+    float: right;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10%;
+    border-width: 0px;
+    width: 50px;
+    height: 30px;
+}
+.comment_send button:hover {
+
+}
+.persion_comment {
+	margin-top: 20px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.all_comment h3{
+	height: 30px;
+}
+.coment_good {
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.coment_info {
+	font-size: 16px;
+}
+
+.coment_good i{
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+.coment_info i{
+	margin-right: 5px;
+	font-size: 16px;
+}
+.line {
+	width: 100%;
+	height: 1px;
+	background-color: gray;
+}
+
+.detail_author_comment {
+	width: 100%;
+}
+
+.author_img_comment {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	position: relative;
+	margin-top: 6px;
+}
+.detail_author_o_comment{
+	position: relative;
+	left: 60px;
+	top:-48px;
+}

@@ -14,63 +14,93 @@
 	<script src="js/login.js"></script>
 	<script src="js/vidio.js"></script>
 </head>
-<body>
-	<nav class="navbar navbar-default" role="navigation" id = "nav">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><div class="navbar-header" id="return_cata" style="margin-top: 15px">
-				<image src="image/return.png" class="mv_icon1"></image>
-			</div></a>
-			<div>
-			  <ul class="nav navbar-nav" id = "nav_ul">
-					<li id = "nav_ul_li" class="title"><a href="#">1.1 第一节</a></li>
-			  </ul>
-		    </div>
+	<body>
+		<nav class="navbar navbar-default" role="navigation" id = "nav">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="learn.html"><div class="navbar-header" id="return_cata" style="margin-top: 15px">
+					<image src="image/return.png" class="mv_icon1"></image>
+				</div></a>
+				<div>
+				  <ul class="nav navbar-nav" id = "nav_ul">
+						<li id = "nav_ul_li" class="title"><a href="#">1.1 第一节</a></li>
+				  </ul>
+			    </div>
 
-		    <div id="nav_search_button" class="input-group col-md-3" style="margin-top:0px positon:relative">
-	      		<input type="text" class="form-control"placeholder="课程名称" / >
-	            <span class="input-group-btn">
-	               <span class="btn btn-info btn-search" color="gray">搜索</span>
-	            </span>
- 			</div>
+			    <div id="nav_search_button" class="input-group col-md-3" style="margin-top:0px positon:relative">
+		      		<input type="text" class="form-control"placeholder="课程名称" / >
+		            <span class="input-group-btn">
+		               <span class="btn btn-info btn-search" color="gray">搜索</span>
+		            </span>
+	 			</div>
 
- 			<div id = "login">
- 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal">登录</span>
- 				<span class="loginOrRegister">/</span>
- 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal1">注册</span>
- 			</div>
-	   </div>
-	</nav>
-	<div class="vidio_box">
-		<div class="vidio_catalogue_box" id="vidio_catalogue_box">
-			<img class="vidio_arrow" src="image/arrow.png" onclick="show_catagory()">
-		</div>
-		<div class="vidio_see_box" id="vidio_see_box">
-			
-		</div>
-
-
-		<div data-spy="scroll" data-offset="0" style="height:100%;overflow:auto; position: relative;width: 20%; top: -90%" id="scroll_catagory">
-			<div class="vidio_catagory_close" id="vidio_catagory_close" onclick="closeCatagory()">
-				<img src="image/close.png">
+	 			<div id = "login">
+	 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal">登录</span>
+	 				<span class="loginOrRegister">/</span>
+	 				<span class="loginOrRegister" data-toggle="modal" data-target="#myModal1">注册</span>
+	 			</div>
+		   </div>
+		</nav>
+		<div class="vidio_box">
+			<div class="vidio_catalogue_box" id="vidio_catalogue_box">
+				<img class="vidio_arrow" src="image/catagory.png" onclick="show_catagory()">
+			</div>
+			<div class="vidio_see_box" id="vidio_see_box">
+				<video id="my-player" class="video-js" controls preload="auto" poster="image/te.jpg"  height="400" data-setup='{}'> 
+					<source class="vjs-4-3" src="vidio/教学目标.mp4" type="video/mp4"></source>
+					<source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+					<source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
+				</video>
 			</div>
 
-			<div class="vidio_catagory_huadong">
-				<ul class="set_ul">
-					<li class="set_title">1.1 初见祖国</li>
-					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">我爱的红旗啊</li></a>
-					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">五十六个民族是一家</li></a>
-					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">总结</li></a>
-				</ul>
-				<ul>
-					<li class="set_title">1.2 爱祖国</li>
-					<a href="#"><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">中华人民共和国</li></a>
-					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">共产党</li></a>
-					<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">人民解放军</li></a>
-				</ul>
-			</div>
-	
 
+			<div data-spy="scroll" data-offset="0" style="height:100%;overflow:auto; position: relative;width: 20%; top: -90%" id="scroll_catagory" class ="scroll_catagory">
+				<div class="vidio_catagory_close" id="vidio_catagory_close" onclick="closeCatagory()">
+					<img src="image/close.png">
+				</div>
+
+				<div class="vidio_catagory_huadong">
+					<ul class="set_ul">
+						<li class="set_title">1.1 初见祖国</li>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">我爱的红旗啊</li></a>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">五十六个民族是一家</li></a>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">总结</li></a>
+					</ul>
+					<ul>
+						<li class="set_title">1.2 爱祖国</li>
+						<a href="#"><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">中华人民共和国</li></a>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">共产党</li></a>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">人民解放军</li></a>
+					</ul>
+					<ul>
+						<li class="set_title">1.2 爱祖国</li>
+						<a href="#"><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">中华人民共和国</li></a>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">共产党</li></a>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">人民解放军</li></a>
+					</ul>
+					<ul>
+						<li class="set_title">1.2 爱祖国</li>
+						<a href="#"><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">中华人民共和国</li></a>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">共产党</li></a>
+						<a href=""><sapn class="imv2-video_circle"><img src="image/play.png"></sapn><li class="set_li">人民解放军</li></a>
+					</ul>
+				</div>
+		
+
+			</div>
 		</div>
-	</div>
+		<div class="resourse">
+			<ul>
+				<li class="resourse_li" id="resourse_li" onclick="resourse()">资料</li>
+				<li class="resourse_li" id="resourse_saw" onclick="discuss()">讨论</li>
+			</ul>
+		</div>
+		<div class="resourse_content" style="display: inline;">
+			<div class="file_box">
+				
+			</div>
+		</div>
+		<div class="relative_course" style="display: inline;">
+			相关课程
+		</div>
 	</body>
 </html>

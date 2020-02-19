@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	  	<title>登录</title>
+	  	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	  	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/learn.css">
+		<script src="js/login.js"></script>
+	</head>
+	<body style="background-image: url(image/backPage.jpg); background-repeat: no-repeat;background-size: cover;">
+		<div class="login_box" id="login_box">
+			<div class="login_regi_title">
+				<p class="login_title" id="login_title" onclick="loginTitle()">登录</p>
+				<p class="register_title" id="register_title"  onclick="registerTitle()">注册</p>
+			</div>
+			<form action="" id="login_form">
+				<input id="login_username" class="register_input" placeholder="用户名" type="text" name="">
+				<input type="password" class="register_input" id="login_password" placeholder="密码" name="">
+				<label>&nbsp&nbsp&nbsp&nbsp<input type="checkbox" onclick="persionTeching()" id="persion_teching" name="persion" value="身份">教师</label>
+				<label><input type="checkbox" id="persion_stu"  onclick="persionStu()" name="persion" value="身份">学生  </label>
+				<button type="submit" class="btn btn-success" id="login_button">登录</button>
+				<div class="forget_password">忘记密码？</div>
+			</form>
+
+			<form action="" id="register_form">
+				<input id="login_username" class="register_input" placeholder="用户名" type="text" name="">
+				<input type="password" class="register_input" id="login_password" placeholder="密码" name="">
+				<input type="password"  class="register_input" id="login_repassword" placeholder="重复密码" name="">
+				<input type="password" class="register_input" id="login_phone" placeholder="手机号码" name=""><span><button class="btn btn-info" style="margin-left: 10px">发送</button></span>
+				<input type="password" class="register_input" id="login_code" placeholder="验证码" name="">
+				<button type="submit" class="btn btn-success" id="register_button">注册</button>
+			</form>
+			
+		</div>
+	</body>
+</html>

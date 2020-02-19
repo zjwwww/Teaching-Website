@@ -1,0 +1,89 @@
+body{
+	background-color: #ffffff;
+}
+.navbar-default {
+    background-color: #ffffff !important;
+}
+.scrollBar {
+	width: 70%;
+	height: 300px;
+	margin-left: 18%;
+	margin-top: 70px;
+}
+.scrollBar_left {
+	float: left;
+	width: 60%;
+	height: 300px;
+}
+
+.library_content {
+	width: 70%;
+	height: 400px;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+.library_content_left {
+	float: left;
+	width: 60%;
+	margin-left: 5%;
+}
+.library_content_right {
+	float:right;
+	width: 25%;
+	margin-right: 5%;
+}
+
+.library_file {
+	margin-top: 20px;
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid #dad8d8;
+}
+
+.library_file .title {
+	font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333;
+}
+
+.note-list .abstract {
+    margin: 0 0 8px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999;
+}
+
+.library_file a i{
+	color: gray;
+}
+
+.library_file a {
+	color: gray;
+}
+
+.right_title {
+	width: 100%;
+	height: 40px;
+}
+.right_title{
+	font-size: 16px;
+    color: #969696;
+}
+
+.library_content_right ol li {
+	margin-top: 10px;
+}
+
+.scrollBar_right {
+	float: right;
+	width: 30%;
+	height: 300px;
+	margin-right: 8%;
+}
+.navbar-fixed-top {
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}

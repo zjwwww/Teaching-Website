@@ -1,0 +1,23 @@
+{
+  "id": "1643794",
+  "name": "myIcon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12265221",
+      "name": "评 论 (1)",
+      "font_class": "pinglun",
+      "unicode": "f7fc",
+      "unicode_decimal": 63484
+    },
+    {
+      "icon_id": "12269242",
+      "name": "消 息1-01",
+      "font_class": "xiaoxi--copy-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
