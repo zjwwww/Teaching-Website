@@ -16,9 +16,8 @@ body {
 
 .detail_content_right {
 	float: right;
-	background-color: green;
+	background-color: #fff;
 	width: 25%;
-	height: 400px;
 	border-radius: 4px;
 }
 .detail_title {
@@ -176,4 +175,32 @@ body {
 	position: relative;
 	left: 60px;
 	top:-48px;
+}
+.author_interu {
+	width: 90%;
+	margin-left: 5%;
+}
+.author_new_file {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.fvtr {
+	width: 100%;
+	border-bottom: 1px solid gray;
+}
+
+.intro_file {
+	color: #000;
+	font-size: 16px;
+}
+.gtth {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.gtth a{
+	color: #636060;
+	font-size: 14;
 }
