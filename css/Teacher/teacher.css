@@ -1,0 +1,261 @@
+body{
+	background-color: #487386;
+}
+.navgation {
+	width: 100%;
+	height: 70px;
+	background-color: #487386;
+}
+.navgation_logo {
+	width: 140px;
+	height: 70px;
+	margin-left: 20px;
+	position: fixed;
+}
+
+.navgation_logo img{
+	width: 140px;
+	height: 70px;
+	
+}
+.content_list {
+	float: left;
+	width: 20%;
+	margin-left: 10px;
+	position: fixed;
+}
+.content_course {
+	float: right;
+	width: 75%;
+	height: 500px;
+	margin-right: 3%;
+}
+
+.list_index {
+	width: 100%;
+	height: 45px;
+	background-color: #2a4a5852;
+	border-radius: 2px;
+}
+
+.list_index p{
+	float: left;
+	margin-left: 15px;
+	font-size: 16px;
+	color: white;
+	margin-top: 10px;
+}
+.list_index div{
+	float: right;
+	margin-right: 15px;
+	font-size: 16px;
+	color: white;
+	margin-top: 10px;
+}
+.course_manage {
+	width: 100%;
+	background-color: #2a4a5852;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.course_manage p{
+	margin-left: 15px;
+	font-size: 16px;
+	color: white;
+	padding-top: 15px;
+	width: 70px;
+}
+.course_manage_i{
+	margin-left: 80%;
+	font-size: 18px;
+	color: white;
+	margin-top: -35px;
+}
+.course_manage_list {
+
+}
+ul {
+	list-style-type: none;
+	margin-top: 10px;
+}
+li {
+	list-style-type: none;
+	font-size: 16px;
+	color: white;
+	margin-top: 20px;
+	cursor: default;
+}
+.content_course_title {
+	width: 100%;
+	height: 50px;
+	background-color: #f4f4f4;
+	box-shadow: 0px 3px 0px rgba(7, 17, 27, 0);
+}
+.course_image {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	top: 5px;
+	margin-left: 5px;
+}
+.course_image img{
+	position: relative;
+	width: 40px;
+	height: 40px;
+}
+.course_image_content {
+	width: 100%;
+	background-color: white;
+}
+.active {
+	color: red;
+}
+
+.course_image_content_title {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	display: inline;
+}
+
+.course_Name {
+	position: relative;
+	width: 90px;
+	height: 30px;
+	background-color: #52819b;
+	margin-left: 10%;
+	top: 20px;
+	border-radius: 5px;
+	font-size:15px;
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+}
+.course_delate {
+	position: relative;
+	width: 90px;
+	height: 30px;
+	background-color: #52819b;
+	margin-left: 80%;
+	border-radius: 5px;
+	font-size:15px;
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+	top: -10px;
+}
+.course_table {
+	width: 90%;
+	height: 40px;
+	margin-left: 5%;
+	border-bottom: 1px solid #b7b4b4;
+	margin-top: 15px;
+}
+
+.course_table_name {
+	position: relative;
+	height: 40px;
+	margin-left: 5%;
+}
+.course_table_name span{
+	position: relative;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#iconshanchu {
+	position: relative;
+    margin-left: 87%;
+    top: -40px;
+}
+.paging {
+	width: 180px;
+    height: 30px;
+    margin-left: 70%;
+    margin-top: 10px;
+ }
+ .but1 {
+ 	position: relative;
+ 	width: 60px;
+ 	height: 30px;
+ 	background-color: #52819b;
+ 	text-align: center;
+ 	padding-top: 5px;
+ 	border-radius: 5px;
+ 	cursor: pointer;
+ 	color: white;
+ }
+ .but2 {
+ 	position: relative;
+ 	width: 40px;
+ 	height: 30px;
+ 	background-color: #948c8c;
+ 	left: 62px;
+ 	top: -30px;
+ 	text-align: center;
+ 	padding-top: 5px;
+ 	border-radius: 50px;
+ 	color: white;
+ }
+ .but3 {
+ 	position: relative;
+ 	width: 60px;
+ 	height: 30px;
+ 	background-color: #52819b;
+ 	left: 104px;
+ 	top: -60px;
+ 	text-align: center;
+ 	padding-top: 5px;
+ 	border-radius: 5px;
+ 	cursor: pointer;
+ 	color: white;
+ }
+ .panel {
+ 	position: relative;
+    top: 60px;
+    width: 80%;
+    margin-left: 10%;
+ }
+ .panel-heading {
+ 	background-color: #70a7c1 !important; 
+ 	height: 50px;
+ }
+ a {
+
+ }
+ .panel-title {
+ 	margin-top: 6px;
+ 	font-size: 18px;
+ 	color: white;
+ }
+ .course {
+ 	width: 100%;
+ 	height:50px;
+ 	background-color: #f3f0f0;
+ 	cursor: pointer;
+ }
+ .course h5 {
+ 	position: relative;
+ 	font-size: 16px;
+ 	margin-left: 40px;
+ 	top: -43px;
+ 	color: #636161;
+ }
+ .course span {
+ 	font-size: 35px;
+ }
+ .edit {
+ 	font-size: 14px; 
+ 	margin-left: 60%;
+ 	margin-top: -70px;
+ 	color: gray;
+ 	cursor: pointer;
+ }
+ .delete_course {
+ 	font-size: 14px; 
+ 	margin-left: 70%;
+ 	margin-top: -30px;
+ 	color: red;
+ 	cursor: pointer;
+ }

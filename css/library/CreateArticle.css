@@ -70,9 +70,20 @@ body{
 	margin-top: 20px;
 }
 #editor{
-	height: 350;
+	height: 300;
 }
 
 .w-e-text-container {
 	height: 400px !important;
+}
+
+.preview_ {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background-color: #211f1f7a;
+	top: 0;
+    left: 0;
+    overflow-y:visible;
 }
