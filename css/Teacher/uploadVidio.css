@@ -1,0 +1,26 @@
+.ccmc {
+	position: relative;
+	width: 90%;
+	height: 60px;
+	top: 20px;
+	left: 30%;
+	margin-bottom: 20px;
+}
+.ccmc span {
+	position: relative;
+	left: 5px;
+	font-size: 20px;
+	color: gray;
+}
+
+.ccmc input {
+	position: relative;
+	margin-left: 40px;
+	width: 200px;
+	height: 40px;
+}
+.ccmc_file {
+	font-size: 16px;
+    margin-left: 130px !important;
+    margin-top: -25px;
+}
